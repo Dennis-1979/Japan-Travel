@@ -2,6 +2,47 @@
 
 ---
 
+## 2026-06-26
+
+**Route:** Toronto (YYZ) → Tokyo (NRT or HND)
+**Trip:** Round trip · Depart 2027-03-13 · Return 2027-03-28
+**Passengers:** 4 adults, 1 child
+**Currency:** CAD
+**Source:** SerpAPI Google Flights (stops=0 and stops=1 queries, NRT + HND)
+
+---
+
+### Best Direct Flight
+
+**Air Canada** · YYZ → NRT (nonstop) · AC 9 · Boeing 777
+Depart 2027-03-13 13:00 → Arrive 2027-03-14 16:30 · 13h 30min
+**Total for 5 passengers: CAD 12,531**
+
+---
+
+### Top 3 Direct Flights (ranked by price)
+
+| # | Airline | Flight | Route | Duration | Total (5 pax) |
+|---|---------|--------|-------|----------|--------------|
+| 1 | Air Canada | AC 9 | YYZ → NRT (nonstop) | 13h 30min | CAD 12,531 |
+| 2 | Air Canada | AC 1 | YYZ → HND (nonstop) | 14h 10min | CAD 13,684 |
+
+_Only 2 nonstop options found (both Air Canada)._
+
+---
+
+### Top 3 One-Stop Flights — layover ≤ 4 h (ranked by price)
+
+| # | Airline | Route | Layover Airport | Layover | Total Duration | Total (5 pax) |
+|---|---------|-------|-----------------|---------|----------------|---------------|
+| 1 | Korean Air | YYZ → ICN → NRT | Incheon (ICN) | 1h 55min | 19h 25min | CAD 11,063 |
+| 2 | Air Canada / ANA | YYZ → LAX → HND | Los Angeles (LAX) | 2h 38min | 20h 35min | CAD 11,601 |
+| 3 | Air Canada / ANA | YYZ → SFO → HND | San Francisco (SFO) | 2h 36min | 19h 55min | CAD 12,121 |
+
+_Excluded from ranking: Korean Air / Asiana via ICN to HND (4h 40min layover, CAD 11,879), EVA Air via TPE to NRT (10h 10min layover, CAD 11,670), EVA Air via TPE to HND (11h 20min layover, CAD 11,858), Air Canada / United via EWR to NRT (12h 05min overnight, CAD 11,603) — all exceed the 4-hour layover limit._
+
+---
+
 ## 2026-06-25 (run 2)
 
 **Route:** Toronto (YYZ) → Tokyo (NRT or HND)

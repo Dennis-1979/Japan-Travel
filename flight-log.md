@@ -2,6 +2,47 @@
 
 ---
 
+## 2026-07-01
+
+**Route:** Toronto (YYZ) → Tokyo (NRT or HND)
+**Trip:** Round trip · Depart 2027-03-13 · Return 2027-03-28
+**Passengers:** 4 adults, 1 child
+**Currency:** CAD
+**Source:** SerpAPI Google Flights (stops=1 nonstop query + stops=2 one-or-fewer-stop query, NRT + HND)
+
+---
+
+### Best Direct Flight
+
+**Air Canada** · YYZ → NRT (nonstop) · AC 9 · Boeing 777
+Depart 2027-03-13 13:00 → Arrive 2027-03-14 16:30 · 13h 30min
+**Total for 5 passengers: CAD 12,618**
+
+---
+
+### Top 3 Direct Flights (ranked by price)
+
+| # | Airline | Flight | Route | Duration | Total (5 pax) |
+|---|---------|--------|-------|----------|--------------|
+| 1 | Air Canada | AC 9 | YYZ → NRT (nonstop) | 13h 30min | CAD 12,618 |
+| 2 | Air Canada | AC 1 | YYZ → HND (nonstop) | 14h 10min | CAD 13,772 |
+
+_Only 2 nonstop options found (both Air Canada)._
+
+---
+
+### Top 3 One-Stop Flights — layover ≤ 4 h (ranked by price)
+
+| # | Airline | Route | Layover Airport | Layover | Total Duration | Total (5 pax) |
+|---|---------|-------|-----------------|---------|----------------|---------------|
+| 1 | Korean Air | YYZ → ICN → NRT | Incheon (ICN) | 1h 55min | 19h 25min | CAD 11,150 |
+| 2 | EVA Air | YYZ → TPE → NRT | Taipei (TPE) | 3h 40min | 22h 40min | CAD 11,946 |
+| 3 | Air Canada / ANA | YYZ → LAX → HND | Los Angeles (LAX) | 2h 37min | 20h 35min | CAD 13,068 |
+
+_Next cheapest within the 4h limit (not in top 3): Air Canada/United via ORD to NRT (1h 32min layover, CAD 13,069). Excluded for exceeding the 4-hour layover limit: United via ORD to NRT (12h 41min overnight layover, CAD 13,069)._
+
+---
+
 ## 2026-06-30
 
 **Route:** Toronto (YYZ) → Tokyo (NRT or HND)
